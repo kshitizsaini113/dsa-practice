@@ -23,12 +23,16 @@ class Solution {
             }
 
             int key = nums[minIdx];
+            // Store the min element so that it can be swapped at last.
+            
             while(minIdx>i) {
                 nums[minIdx] = nums[minIdx-1];
                 minIdx--;
             }
+            // Swap the elements from index i to minIdx by 1 pace to the right.
 
             nums[i] = key;
+            // Insert the min element at i-th index.
             
         }
 
