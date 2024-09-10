@@ -13,3 +13,14 @@ A Sorting Algorithm is used to rearrange a given array or list of elements accor
 8. Quick Sort
 
 > Of all these ***Merge Sort*** is the best sorting algorithm
+
+| Algorithm                     | Time Complexity | Space Complexity | Stability     |
+|-------------------------------|-----------------|------------------|---------------|
+| **Selection Sort**            | O(n^2)          | O(1)             | Not Stable    |
+| **Stable Selection Sort**     | O(n^2)          | O(1)             | Stable        |
+| **Bubble Sort**               | O(n^2)          | O(1)             | Stable        |
+| **Insertion Sort**            | O(n^2)          | O(1)             | Stable        |
+| **Recursive Bubble Sort**     | O(n^2)          | O(n)             | Stable        |
+| **Recursive Insertion Sort**  | O(n^2)          | O(n)             | Stable        |
+| **Merge Sort**                | O(n log n)      | O(n)             | Stable        |
+| **Quick Sort**                | O(n log n)      | O(log n)         | Not Stable    |
