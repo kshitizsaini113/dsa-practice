@@ -1,1 +1,3 @@
-# dsa-practice
+# Data Structure and Algorithms
+
+* Sorting
