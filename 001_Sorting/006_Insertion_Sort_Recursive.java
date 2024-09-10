@@ -32,3 +32,8 @@ class Solution
   }
   
 }
+
+// TIME COMPLEXITY : O(n^2)
+// SPACE COMPLEXITY : O(1)
+
+// LEETCODE PROBLEM : 912 - Time Limit Exceeded since not the optimized solution
